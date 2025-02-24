@@ -87,7 +87,7 @@ A **stacking model** (XGBoost, LightGBM, and CatBoost) was trained to minimize *
 2️⃣ **Log transformation reduced skewness in key clinical features.**  
 3️⃣ **Future Work:** Experimenting with **hyperparameter tuning**, additional feature interactions, and ensemble techniques.
 
-### **🏆 Kaggle Score: 0.37136** (Rank #1 in the competition so far 🎉)  
+### **🏆 Kaggle Score: 0.37136** 
 
 ---
 
