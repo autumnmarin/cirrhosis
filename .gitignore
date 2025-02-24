@@ -398,3 +398,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+scratch.txt
+cirr_header.jpg
+sweetviz_report.html
+xgb_train1.ipynb
+xgb_train_test1.ipynb
+pima.pickle.dat
+submission.csv
+cirr_header.jpg
