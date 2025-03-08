@@ -4,7 +4,7 @@
 
 
 ### **TL;DR**  
-Applied **multi-class classification** to predict patient outcomes in cirrhosis. Leveraged **feature engineering, outlier removal, and an ensemble modeling approach** to improve accuracy. Currently **ranked with a log loss of 0.37136**. 🚀  
+Applied **multi-class classification** to predict patient outcomes in cirrhosis. Leveraged **feature engineering, outlier removal, and an ensemble modeling approach** to improve accuracy. **1st Place 🏆 Kaggle Score: 0.37079**  🚀  
 
 ---
 
@@ -23,19 +23,16 @@ Our approach includes **advanced feature engineering, outlier handling, and mode
 ### **🔹 Feature Engineering Strategy**  
 Instead of simply using raw clinical features, we enhanced the dataset with **derived features** based on domain knowledge to capture better **biological relationships**.
 
-<!--#### **🔬 Feature Transformations**-->
+#### **🔬 Feature Transformations**
 
-🚧 Pending Publication 
-
-<!-- ✅ **Feature Ratios for Clinical Relevance**  
+✅ **Feature Ratios for Clinical Relevance**  
 - Bilirubin-to-Albumin Ratio to capture liver function balance.
 
 ✅ **Binary Indicators for Critical Biomarker Levels**  
 - Flags for high bilirubin and low albumin to indicate potential complications.
 
 ✅ **Log Transforming Skewed Features**  
-- Normalizing highly skewed variables (Bilirubin, SGOT, Alk_Phos, Copper) for better interpretability. -->
-
+- Normalizing highly skewed variables (Bilirubin, SGOT, Alk_Phos, Copper) for better interpretability. 
 ---
 
 ## **📊 Feature Importance**
@@ -56,18 +53,14 @@ Understanding which features contribute most to the model's decision-making is *
 
 ### **📊 Data Preprocessing Steps:**  
 
-🚧 Pending Publication 
-
-<!--✅ **Handled Missing Values** – Imputed numerical and categorical missing values  
+✅ **Handled Missing Values** – Imputed numerical and categorical missing values  
 ✅ **One-Hot Encoding** – Converted categorical variables into model-friendly features  
-✅ **Log Transformation** – Applied log-scaling to skewed variables for better feature distribution  -->
+✅ **Log Transformation** – Applied log-scaling to skewed variables for better feature distribution  
 
 
 ## **📈 Model Performance**  
 
-🚧 Pending Publication 
-
-<!--Feature engineering consistently improved model accuracy.  
+Feature engineering consistently improved model accuracy.  
 A **stacking model** (XGBoost, LightGBM, and CatBoost) was trained to minimize **multi-class log loss**.
 
 | Model         | Log Loss Before | Log Loss After  |
@@ -78,7 +71,7 @@ A **stacking model** (XGBoost, LightGBM, and CatBoost) was trained to minimize *
 | **Stacked**   | 0.6931        | **0.3287**    |
 
 🔹 **Final approach used a stacked model** combining XGBoost, LightGBM, and CatBoost for optimal predictions.  
-🔹 **Ensemble methods helped improve generalization** and reduce variance.   -->
+🔹 **Ensemble methods helped improve generalization** and reduce variance.   
 
 ---
 
@@ -87,7 +80,7 @@ A **stacking model** (XGBoost, LightGBM, and CatBoost) was trained to minimize *
 2️⃣ **Log transformation reduced skewness in key clinical features.**  
 3️⃣ **Future Work:** Experimenting with **hyperparameter tuning**, additional feature interactions, and ensemble techniques.
 
-### **🏆 Kaggle Score: 0.37136** 
+### **1st Place 🏆 Kaggle Score: 0.37079** 
 
 ---
 
